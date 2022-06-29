@@ -86,14 +86,14 @@ a:hover {
 
 /**********  HOME   *********************************************
 /*.landpage-home {
-    background-image: url('/module/landpage/images/img-capa-1.png');
+    background-image: url('/website-roma/module/landpage/images/img-capa-1.png');
     background-position:center;
     background-size: cover;
     height: 100vh;
 }*/
 
 .landpage-home {
-    background-image: url('/module/landpage/images/business-people-meeting.jpg');
+    background-image: url('/website-roma/module/landpage/images/business-people-meeting.jpg');
     background-position:center;
     background-size: cover;
     height: 100vh;
@@ -257,7 +257,7 @@ a:hover {
 
 /**********  PARALLAX   **********************************************/
 .landpage-parallax {
-    background-image: url('/module/landpage/images/BACKGROUND-P.png');
+    background-image: url('/website-roma/module/landpage/images/BACKGROUND-P.png');
     height: 80vh; 
     background-attachment: fixed;
     background-position: center;
@@ -347,12 +347,12 @@ border-style: none;
 }
 
 .carousel-control-prev-icon{
-    background-image: url('/module/landpage/images/left-arrow.svg') !important;
+    background-image: url('/website-roma/module/landpage/images/left-arrow.svg') !important;
     
 }
 
 .carousel-control-next-icon{
-    background-image: url('/module/landpage/images/right-arrow.svg') !important;
+    background-image: url('/website-roma/module/landpage/images/right-arrow.svg') !important;
 }
 
 .carousel-indicators .active{
