@@ -258,7 +258,7 @@ a:hover {
 /**********  PARALLAX   **********************************************/
 .landpage-parallax {
     background-image: url('/website-roma/module/landpage/images/BACKGROUND-P.png');
-    height: 80vh; 
+    height: fit-content; 
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -272,6 +272,7 @@ a:hover {
     align-self: center;
     font-family: 'Montserrat', serif;
     margin-top: 180px;
+    margin-bottom: 180px;
 }
 
 
