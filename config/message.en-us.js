@@ -1,0 +1,11 @@
+portal.i18n['en-us'] = {};
+portal.i18n['en-us'].MSG_UI_LOCK_DEFAULT = 'Loading...';
+portal.i18n['en-us'].MDL_CONFIRM_TITLE = 'Confirmation';
+portal.i18n['en-us'].MDL_BTN_YES = 'Yes';
+portal.i18n['en-us'].MDL_BTN_NO = 'No';
+portal.i18n['en-us'].MDL_BTN_OK = 'Ok';
+portal.i18n['en-us'].MDL_BTN_CLOSE = 'Close';
+portal.i18n['en-us'].MSG_NTF_NOT_PERMISSION = 'User don\'t has permission, or session is expired.';
+portal.i18n['en-us'].MSG_NTF_DONT_RESPONSE = 'Sorry, the server is not response.';
+portal.i18n['en-us'].MSG_CNT_SUCCESS = 'OK! Your contact is sent.';
+portal.i18n['en-us'].MSG_CNT_VALIDATE = 'You need fill all fields.';

@@ -1,0 +1,11 @@
+portal.i18n['pt-br'] = {};
+portal.i18n['pt-br'].MSG_UI_LOCK_DEFAULT = 'Carregando...';
+portal.i18n['pt-br'].MDL_CONFIRM_TITLE = 'Confirma\u00e7\u00e3o';
+portal.i18n['pt-br'].MDL_BTN_YES = 'Sim';
+portal.i18n['pt-br'].MDL_BTN_NO = 'N\u00e3o';
+portal.i18n['pt-br'].MDL_BTN_OK = 'Ok';
+portal.i18n['pt-br'].MDL_BTN_CLOSE = 'Fechar';
+portal.i18n['pt-br'].MSG_NTF_NOT_PERMISSION = 'Usu\u00e1rio sem permiss\u00e3o ou sess\u00e3o expirada.';
+portal.i18n['pt-br'].MSG_NTF_DONT_RESPONSE = 'Desculpe, o servidor n\u00e3o est\u00e1 respondendo.';
+portal.i18n['pt-br'].MSG_CNT_SUCCESS = 'OK! Seu contato foi enviado com sucesso.';
+portal.i18n['pt-br'].MSG_CNT_VALIDATE = 'Favor preencher todos os campos.';
