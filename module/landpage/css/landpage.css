@@ -283,7 +283,7 @@ a:hover {
     text-align: center;
     font-size: 25px;
     font-weight: 400;
-    margin-top: 50px;
+    margin-top: 1%;
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
     letter-spacing: -2px;
@@ -624,7 +624,7 @@ border-style: none;
 
     .landpage-text-clientes{
         font-size: 21px;
-        margin-top: 50px ;
+        margin-top: 2%;
         margin-bottom: 20px;
         padding: 0px;
     }
