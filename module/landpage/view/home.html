@@ -1,0 +1,520 @@
+<head><meta charset="utf-8" /></head>
+<link rel="stylesheet" href="./module/landpage/css/landpage.css">
+<script src="./module/landpage/controller/home.js"></script>
+
+<div style="width: 100% !important;" ng-controller="LandpageHomeController">
+
+    <!--NAVE--------------------------------------------------->
+    <nav class="navbar" style="background-color:rgba(255, 255, 255, 0.863);">
+        <span class="navbar-toggle" id="js-navbar-toggle">
+            <i class="fas fa-bars"></i>
+        </span>
+        <a href="#" class="media-navbar-a">
+            <img id="imagem" class="logo-ini" src="/module/landpage/images/logo.png" alt="Roma Logo">
+            <p class="landpage-roma align-text-top">Roma Consulting</p>
+        </a>
+        <div class="containers pullUp media-navbar-menu">
+            <ul class="main-nav" id="js-menu">
+                <li class="nav-links-hover"><a href="#inicio" class="nav-links">Início</a></li>
+                <li class="nav-links-hover"><a href="#service" class="nav-links">Serviços</a></li>
+                <li class="nav-links-hover"><a href="#sobre" class="nav-links">Sobre</a></li>
+                <li class="nav-links-hover"><a href="#clientes" class="nav-links">Clientes</a></li>
+                <li class="nav-links-hover"><a href="#contato" class="nav-links">Contato</a></li>
+                <li class="nav-links-hover"><a class="nav-links" href="" ng-click="showModalLangepageContact()">Trabalhe Conosco</a></li>
+            </ul>
+        </div>
+    </nav>
+   
+    <!--HOME-------------------------------------------------------->
+    <div id="inicio" class="landpage-home" >
+        <div class="landpage-home-container" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0" >
+            <h2 style="padding-top: 27px; font-family: 'Montserrat', sans-serif; color: #426a87;">Roma Consultoria</h2>
+            <hr style="width:80%; text-align:center; margin-top: 10px;">
+            <h5 style="font-family: 'Montserrat', sans-serif; font-size: 17px; color: #848787;">Maximize seus resultados de forma <br> inteligente e com qualidade. </h5>  
+        </div>
+    </div>
+    <!--CARD--------------------------------------------------------->
+    <span id="service"></span>
+    <div class="height-fit-content">
+        <div class=" landpage-card-estilo-1 card-deck">
+            <div class="col-lg-3" style="padding: 0;">
+                <div data-aos="fade-right" class="landpage-card-1 card card-hover" class="data-aos="fade-right data-aos-delay="100">
+                    <img src="/module/landpage/images/CARD-BI.png" class="card-img-top" alt="Busines Inteligence">
+                    <div class="card-body text-center" style="padding: 16px;">
+                      <h4 class="card-title">Business<br>Intelligence</h4>
+                      <p class="card-text landpage-card-text-card">A informação é um bem precioso que sabendo administrar corretamente, impulsiona resultados expressivos alavancando e potencializando sua empresa.</p>
+                      <br>
+                      <a href="/module/landpage/view/bi.html" target="_blank">
+                          <button type="button" class="btn btn-outline-success landpage-btn ">Leia mais...</button>
+                      </a>
+                    </div>
+                  </div>
+            </div>
+            
+            <div class="col-lg-3" style="padding: 0;">
+                <div data-aos="fade-right" class="landpage-card-1 card card-hover" class="data-aos="fade-right data-aos-delay="500">
+                    <img src="/module/landpage/images/CARD-TABLEAU2.png" class="card-img-top" alt="Tableau">
+                    <div class="card-body text-center" style="padding: 16px;">
+                      <h4 class="card-title">Tableau<Br>Software</h4>
+                      <p class="card-text landpage-card-text-card">Somos parceiros e representantes oficiais tableau. Conheça esta incrível ferramenta de BI leader de  mercado mundial que irá ajudar a sua empresa a evoluir muito mais.</p>
+                      <br>
+                      <a href="/module/landpage/view/tableau.html" target="_blank">
+                          <button type="button" class="btn btn-outline-success landpage-btn">Leia mais...</button>
+                      </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-3" style="padding: 0;">
+                <div data-aos="fade-right" class="landpage-card-1 card card-hover" class= "data-aos="fade-right data-aos-delay="1000">
+                    <img src="/module/landpage/images/CARD-TEC.png" class="card-img-top" alt="Soluções tecnologicas">
+                    <div class="card-body text-center" style="padding: 16px;">
+                      <h4 class="card-title">Data<br>Science</h4>
+                      <p class=" card-text landpage-card-text-card text-center ">Nos comprometemos com a ciência de dados por meio de modelos matemáticos, estatísticos utilizando diferentes linguagens e ferramentas (Google, AWS, etc...)</p>
+                      <br>
+                      <a href="https://hbr.org/2012/10/data-scientist-the-sexiest-job-of-the-21st-century" target="_blank">
+                          <button type="button" class="btn btn-outline-success landpage-btn">Saiba mais</button>
+                      </a>
+                  </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3" style="padding: 0;">
+                <div data-aos="fade-right" class="landpage-card-1 card card-hover" class= "data-aos="fade-right data-aos-delay="1000">
+                    <img src="/module/landpage/images/CARD-ROMALIST.png" class="card-img-top" alt="Soluções tecnologicas">
+                    <div class="card-body text-center" style="padding: 16px;">
+                      <h4 class="card-title">Roma<br>List</h4>
+                      <p class=" card-text landpage-card-text-card text-center ">O Roma List se compromete na validação de identidade, verificação de informações pessoais e empresariais, a fim de prevenir contra fraudes, com segurança</p>
+                      <br>
+                      <a href="https://romalist.com.br/" target="_blank">
+                          <button type="button" class="btn btn-outline-success landpage-btn">Saiba mais</button>
+                      </a>
+                  </div>
+                </div>
+            </div>
+            
+         </div>
+    </div>  
+    
+    <!--SERVICE------------------------------------------------------>
+    <span id="sobre"></span><br>
+    <div class="landpage-fundo row">
+        <div class="row w-100 landpage-titleservice">
+            <div class="col">
+                <h1 data-aos="fade-left" class="landpage-text-clientes">
+                    <span style="background-color: rgb(255, 255, 255);
+                    border: 1px solid rgba(0,0,0,.125);
+                    top: -15px;
+                    position: relative;
+                    padding: 5px">&nbsp;&nbsp; Nossos Serviços &nbsp;&nbsp;</span>
+                </h1>
+                <br>
+                <p class="text-service-p">Prover produtos e serviços com<span style="color: #18d340; font-weight: bold;"> qualidade, agilidade, segurança e inovação</span>, visando a real <br/> necessidade dos clientes e extraindo o melhor custo benefício para solução de seus problemas. </p>
+            </div>
+        </div>
+       <div class="row" >
+            <div class="landpage-card-estilo card-deck">
+                <div class="card bg-transparent  border-0">
+                    <div class="row">
+                        <div data-aos="flip-up" class="landpage-card-service-col col-2 align-items-center ">
+                            <i class="landpage-card-icon far fa-lightbulb"> </i>
+                        </div>
+                        <div class="col-10" style="padding-right:10px">
+                            <h5 class="landpage-card-title">Compromisso</h5>
+                            <p class="landpage-card-text-1">São mais de 200 projetos entregues no prazo e com qualidade, garantindo a satisfação dos clientes.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card bg-transparent border-0">
+                    <div class="row">
+                        <div data-aos="flip-up" class=" landpage-card-service-col col-2 align-items-center">
+                            <i class="landpage-card-icon far fa-handshake"></i>
+                        </div>
+                        <div class="col-10" style="padding-right:10px;">
+                            <h5 class="landpage-card-title">Consultoria</h5>
+                            <p class="landpage-card-text-1">Consultoria em projetos Business Intelligence (BI) utilizando Tableu e outras ferramentas.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card bg-transparent border-0">
+                    <div class="row">
+                        <div data-aos="flip-up" class="landpage-card-service-col col-2 align-items-center">
+                            <i class="landpage-card-icon fas fa-laptop"></i>
+                        </div>
+                        <div class="col-10">
+                            <h5 class="landpage-card-title">Ideias para projetos</h5>
+                            <p class="landpage-card-text-1">De clientes e parceiros, sendo estas em tecnologias mobile, web, desktop, server, lot (internet das coisas) e embarcadores. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>  
+        <!--<div class="row w-100 landpage-titleservice">
+            <div class="col">
+            </div>
+        </div>-->
+        <div class="row height-second-line">
+            <div class="landpage-card-service-col-2 landpage-card-estilo card-deck">
+                <div class="card bg-transparent  border-0">
+                    <div class="row">
+                        <div data-aos="flip-up" class="landpage-card-service-col col-2 align-items-center">
+                            <i class="landpage-card-icon fas fa-chart-bar"></i>
+                        </div>
+                        <div class="col-10" style="padding-right:10px;">
+                            <h5 class="landpage-card-title">Representantes tableau</h5>
+                            <p class="landpage-card-text-1">Soluções em analise dados com relatórios e paineis masi atraentes 100 vezes mais rápido e ágil.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card bg-transparent border-0">
+                    <div class="row">
+                        <div data-aos="flip-up" class=" landpage-card-service-col col-2 align-items-center">
+                            <i class="landpage-card-icon fas fa-cogs"></i>
+                        </div>
+                        <div class="col-10" style="padding-right:10px;">
+                            <h5 class="landpage-card-title">Tecnologia de informação</h5>
+                            <p class="landpage-card-text-1">Com projetos, arquitetura, especificação, desenvolvendo sistemas e alocando recursos especializados em diversas plataformas.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card bg-transparent border-0">
+                    <div class="row">
+                        <div data-aos="flip-up" class="landpage-card-service-col col-2 align-items-center">
+                            <i class="landpage-card-icon fas fa-wallet"></i>
+                        </div>
+                        <div class="col-10">
+                            <h5 class="landpage-card-title">Serviços em: </h5>
+                            <p class="landpage-card-text-1">Seguimento financeiro, telecom, educacional, saúde e comercial. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row w-100 landpage-card-estilo-s">
+            <div class="container container-width">
+                <div class="card-deck" style="margin:0px;" >
+                    <div class="col-md-6">
+                        <div data-aos="flip-up" class="card-responsive-serv card-deck-p card bg-transparent border-0">
+                            <i class="landpage-card-icon-vertical icon-amarelo fas fa-award"></i>
+                            <div class="card-body">
+                                <h5 class="landpage-card-t-empresa lan  landpage-valores">A Empresa</h5>
+                                <p class="landpage-card-text-1 landpage-card-p-empresa card-text">Somos simbolo de referência em soluções tecnológicas, e garantia de qualidade dos nossos serviços.</p>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="col-md-6">
+                       <div data-aos="flip-up" class="card-responsive-serv card bg-transparent border-0">
+                            <i class="landpage-card-icon-vertical icon-amarelo fas fa-users"></i>
+                            <div class="card-body">
+                                <h5 class="landpage-card-t-empresa landpage-valores">Os valores</h5>
+                                <p class="landpage-card-text-1 landpage-card-p-empresa card-text">Nossos valores são: as pessoas, a transparência, os talentos, a ousadia e principalmente a inovação. </p>
+                            </div>
+                        </div>  
+                    </div>                                       
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--PARALLAX----------------------------------------------------->
+    <div class="landpage-parallax">
+       <div data-aos="flip-left" class="dara-aos="flip-left data-aos-delay="500">
+            <p class="landpage-text-parallax w-100">
+                <span style="color:red; font-weight: bold;">"</span>
+                <span style="font-weight:lighter;">São inúmeros projetos finalizados,</span> 
+                <span>há mais de 20 anos <br> desenvolvendo tecnologia <span style="color:red; font-weight: bold;">"</span>.
+                </span>
+            </p>
+        </div>
+    </div>
+    
+    <!--CLIENTES E PARCEIROS------------------------------------------>
+    <span id="clientes"></span>
+    <br><br>
+    <div class="fundo-2">  
+        <div  class="row">
+            <div class="row w-100">
+                <div class="col" >
+                    <p data-aos="fade-left" class="landpage-text-clientes">
+                        <span style="background-color: rgb(245, 245, 245);
+                        box-shadow: 10px 10px 1px -4px rgb(24 211 64);
+                        border: 1px solid rgba(0,0,0,.125);
+                        padding: 5px">
+                        &nbsp;&nbsp; Clientes que já trabalhamos &nbsp;&nbsp;</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!--
+        <div class="landpage-card-c-p card-deck ">
+            <div  data-aos="flip-left" class=" landpage-card-espaço card bg-transparent border-0">
+                 <div data-aos="fade-right" class=" data-aos="fade-right data-aos-delay="100">
+                    <p class="card-text">"Depoimentos de clientes que ficaram satisfeitos com os serviços prestados pela roma consulting."</p>
+                    <img class="landpage-img-cliente" src="/module/landpage/images/clientes-1.png"  class="img-cliente" alt="Parceiros Satisfeitos">   
+                    <p class="landpage-align-text-top"> Nome cliente </p>
+                    <div class="card-body"></div>
+                </div>
+            </div>
+            <div data-aos="flip-left" class="card bg-transparent border-0">
+                <div data-aos="fade-right" class=" data-aos="fade-right data-aos-delay="450" >
+                    <p class="card-text">"Depoimentos de clientes que ficaram satisfeitos com os serviços prestados pela roma consulting."</p>
+                    <img class="landpage-img-cliente" src="/module/landpage/images/clientes-1.png"  class="img-cliente" alt="Parceiros Satisfeitos"> 
+                    <p class=" align-text-top"> Nome cliente </p>
+                    <div class="card-body"></div>
+                </div>
+            </div>
+            <div   data-aos="flip-left" class="card bg-transparent border-0">
+                <div data-aos="fade-right" class=" data-aos="fade-right data-aos-delay="700" >
+                    <p class="card-text ">"Depoimentos de clientes que ficaram satisfeitos com os serviços prestados pela roma consulting."</p>
+                    <img class="landpage-img-cliente" src="/module/landpage/images/clientes-1.png"  class="img-cliente" alt="Parceiros Satisfeitos"> 
+                    <p class=" align-text-top"> Nome cliente </p>
+                    <div class="card-body"></div>
+                </div>
+            </div>
+        </div>-->
+        
+    <!--LOGO PARCEIROS------------------------------------------>
+    
+        <div class="landpage-home-parceiros" > 
+            <div id="carouselClients" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators landpage-parceiros-contatos">
+                    <li style="color: black" data-target="#carouselClients" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselClients" data-slide-to="1" class=""></li>
+                    <!--<li data-target="#carouselClients" data-slide-to="2" class=""></li>
+                    <li data-target="#carouselClients" data-slide-to="3" class=""></li>
+                    <li data-target="#carouselClients" data-slide-to="4" class=""></li>-->
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active landpage-carousel-2">
+                            <div class="container">
+                                <div class="row" style="justify-content: center;">
+                                    <!--<div class="col-lg-3 col-md-6 col-sm-6 text-center">
+                                        <div class="service-box mt-5 mx-auto">
+                                            <img class="img-120 alignnone wp-image-5569 " src="/module/landpage/images/logo-brasil.png" alt="">
+                                        </div>
+                                    </div>-->
+                                    <div class="col-lg-2 col-md-6 col-sm-6 text-center ">
+                                        <div class="service-box mt-5 mx-auto">
+                                            <img class="img-120 alignnone wp-image-5569 " src="/module/landpage/images/Logo_IBM.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-2 col-md-6 col-sm-6 text-center">
+                                        <div class="service-box mt-5 mx-auto">
+                                            <img class="img-120 alignnone wp-image-5569 " src="/module/landpage/images/Logo_AlfaBeto.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-6 col-sm-6 text-center">
+                                        <div class="service-box mt-5 mx-auto">
+                                            <img class="img-120 alignnone wp-image-5569 " src="/module/landpage/images/Logo_American.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-2 col-md-6 col-sm-6 text-center">
+                                        <div class="service-box mt-5 mx-auto">
+                                            <img class="img-120 alignnone wp-image-5569 " src="/module/landpage/images/Logo_Algar.png" alt="">
+                                        </div>
+                                    </div>
+                                    <!--<div class="col-lg-2 col-md-6 col-sm-6 text-center">
+                                        <div class="service-box mt-5 mx-auto">
+                                            <img class="img-120 alignnone wp-image-5569 " src="/module/landpage/images/logo-nextel.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-2 col-md-6 col-sm-6 text-center">
+                                        <div class="service-box mt-5 mx-auto">
+                                            <img class="img-120 alignnone wp-image-5569 " src="/module/landpage/images/logo-expoente.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-2 col-md-6 col-sm-6 text-center">
+                                        <div class="service-box mt-5 mx-auto">
+                                            <img class="img-120 alignnone wp-image-5569 " src="/module/landpage/images/logo-metlife.png" alt="">
+                                        </div>
+                                    </div>-->
+                                </div>
+                            </div>
+                        </div>
+                    <div class="carousel-item landpage-carousel-2">
+                        <div class="container">
+                            <div class="row" style="justify-content: center;">
+                                <div class="col-lg-2 col-md-6 col-sm-6 text-center">
+                                    <div class="service-box mt-5 mx-auto">
+                                        <img class="img-120 alignnone wp-image-5569 " src="/module/landpage/images/Logo_Prime.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-6 col-sm-6 text-center">
+                                    <div class="service-box mt-5 mx-auto">
+                                        <img class="img-120 alignnone wp-image-5569 " style="width: 180px; margin-top: -17px;" src="/module/landpage/images/Logo_AlgarTech.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-6 col-sm-6 text-center">
+                                    <div class="service-box mt-5 mx-auto">
+                                        <img class="img-120 alignnone wp-image-5569 " src="/module/landpage/images/Logo_Checkup.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-6 col-sm-6 text-center">
+                                    <div class="service-box mt-5 mx-auto">
+                                        <img class="img-120 alignnone wp-image-5569 " src="/module/landpage/images/Logo_Callink.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--<div class="carousel-item landpage-carousel-2">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-3 col-md-6 col-sm-6 text-center">
+                                    <div class="service-box mt-5 mx-auto">
+                                        <img class="img-120 alignnone wp-image-5569 " src="/module/landpage/images/logo-sebrae.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-6 col-sm-6 text-center">
+                                    <div class="service-box mt-5 mx-auto">
+                                        <img class="img-120 alignnone wp-image-5569 " src="/module/landpage/images/logo-martins.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-6 col-sm-6 text-center">
+                                    <div class="service-box mt-5 mx-auto">
+                                        <img class="img-120 alignnone wp-image-5569 " src="/module/landpage/images/logo-logo.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-6 col-sm-6 text-center">
+                                    <div class="service-box mt-5 mx-auto">
+                                        <img class="img-120 alignnone wp-image-5569 " src="/module/landpage/images/logo-ctbc.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-6 col-sm-6 text-center">
+                                    <div class="service-box mt-5 mx-auto">
+                                        <img class="img-120 alignnone wp-image-5569 " src="/module/landpage/images/logo.novartis.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item landpage-carousel-2">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-3 col-md-6 col-sm-6 text-center">
+                                    <div class="service-box mt-5 mx-auto">
+                                        <img class="img-120 alignnone wp-image-5569 " src="/module/landpage/images/logo-real.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-6 col-sm-6 text-center">
+                                    <div class="service-box mt-5 mx-auto">
+                                        <img class="img-120 alignnone wp-image-5569 " src="/module/landpage/images/logo-idados.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-6 col-sm-6 text-center">
+                                    <div class="service-box mt-5 mx-auto">
+                                        <img class="img-120 alignnone wp-image-5569 " src="/module/landpage/images/logo-metlife.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-6 col-sm-6 text-center">
+                                    <div class="service-box mt-5 mx-auto">
+                                        <img class="img-120 alignnone wp-image-5569 " src="/module/landpage/images/logo-bradesco.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+                    
+                &nbsp;
+
+                <a class="carousel-control-prev" href="#carouselClients" role="button" data-slide="prev" style="color: rgb(0, 0, 0)" >
+                    <span class="carousel-control-prev-icon"  aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselClients" role="button" data-slide="next" style="color: rgb(0, 0, 0)" >
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+     <!--PARCERIA-------------------------------------------
+     <div id="Parceiros" class="row w-100" style="background: rgb(239 239 239)">
+            <div data-aos="fade-up" class="w-100">
+                <p class="landpage-text-clientes">
+                    <span style="background-color: rgb(255, 255, 255);
+                    box-shadow: 10px 10px 1px -4px rgb(88 182 245);
+                    border: 1px solid rgba(0,0,0,.125);">
+                    &nbsp;&nbsp; Parceria &nbsp;&nbsp;</span>
+                </p>
+            </div>
+            <div class="row">
+                <div data-aos="fade-right" class="col">
+                    <img class="landpage-logo-roma" src="/module/landpage/images/logo-fusion.png" style="width: 21%" alt="Imagem 1">
+                </div>
+                <div data-aos="fade-left" class="col">
+                    <h5 class="landipage-text-parceiros"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>A Roma possui parceria com a Fusion há muitos anos, desenvolvendo projetos com a plataforma Tableau,
+                        alocando recursos especializados, desenvolvendo soluções tecnologicas, desde a projetos e consultória a implementação 
+                        de softwere, hardwere independentes de plataformas e tecnologias. </h5>
+                    <button  type="button" class="btn btn-outline-danger button button4">Saiba Mais...</button>
+                </div>
+            </div>
+        </div>
+        -->
+    <!--CONTATO--------------------------------------------->
+    <span id="contato"></span>
+    <br><br>
+    <div style="background-color: rgb(249 249 249)">
+        <!--<div class="col landpage-text-titulo-contato">
+            <div class="col">
+                <p data-aos="fade-left" class="landpage-text-trabalhe">
+                    &nbsp;&nbsp;&nbsp; Entre em contato! &nbsp;&nbsp;&nbsp;</span>
+                </p>
+                <p class="landpage-text-contato">Vamos gostar muito de atendê-lo.</p>
+            </div>
+        </div>-->
+        <div class="row w-100 landpage-div-contato" style="background-color: rgb(241 241 241)">
+            <div class="col-md">
+                <form action="mailto:fernando@romaconsulting.com" method="post" enctype="text/plain"
+                    class="col landpage-pre" style="background-color: rgb(255, 255, 255);
+                    box-shadow: 16px 16px 1px -4px rgb(88 182 245);
+                    border: 1px solid rgba(0,0,0,.125);">
+                    <div data-aos="fade-right" data-aos-delay="400" class="form-grup" style="padding-bottom: 25px; padding-top: 12px">
+                        <input class="form-control form-control-lg landpage-form-contato-nome" type="text" name="name" placeholder="Nome completo:">
+                        <input class="form-control form-control-lg landpage-form-contato-nome" type="text" name="mail" placeholder="Email:">
+                        <input class="form-control form-control-lg landpage-form-contato-nome" type="text" name="phone" placeholder="Telefone:">
+                        <input class="form-control form-control-lg landpage-form-contato-m" type="text" name="comment" placeholder="Mensagem:">
+                        <button type="button submit" value="Send" class="btn btn-outline-success landpage-button-contato">Enviar</button>
+                    </div>
+                </form>
+            </div>
+            
+            <div class="col-md" style="align-self: center;">
+                <div data-aos="fade-left" class=" landpage-text-contato-endereço">
+                    <p data-aos="fade-left" class="landpage-text-trabalhe">Entre em contato</p>
+                    <hr style="width:80%; text-align:center; margin-top: -18px;">
+                    <p class="landpage-text-endereço">Rua Rio de Janeiro 353  Sala 207  Bairro Brasil</p>
+                    <p class="landpage-text-endereço">Edifício Neo Office</p>
+                    <p class="landpage-text-endereço" style="color: #18d340; font-weight: 600; font-size: 19px;">Uberlandia-MG  38400-658 </p>
+                    <p class="landpage-text-endereço landpage-icone-telefone">(34) 3221 1290</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--FOOTER--------------------------------------------->
+    <div class="row landpage-fooder-fundo" >
+        <div class="col-3 img-footer-align">
+            <P class="align-self-center" href="logo.png"></P>
+            <img src="./module/landpage/images/logo.png" class="landpage-logo-footer" width="100px" height="100px" style="padding-top: 12px">  
+        </div>
+        <div class="col-4 landpage-fooder-text">
+            <div lass=" w-100 landpage-text-contato-firma">
+                <h4 class="landpage-text-fooder-s landpage-text-600"><b>Roma Consulting - LTDA</b></h4>
+                <p class="landpage-text-fooder">Edifício Neo Office Sala 207 </p>
+                <p class="landpage-text-fooder">(34) 3221-1290 </p>
+                <p class="landpage-text-fooder">contato@romaconsulting.com.br </p>
+            </div>
+        </div>
+        <div class="col-4 landpage-fooder-text-s">
+            <div class=" w-100 landpage-text-contato-firma" style="margin-left:50px;" >
+                <h6 class="landpage-text-fooder-s"><b>Fernando Martins Ferreira</b></h6>
+                <p class="landpage-text-fooder">(34) 99966-5672 </p>
+                <p class="landpage-text-fooder">fernando@romaconsulting.com.br </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+

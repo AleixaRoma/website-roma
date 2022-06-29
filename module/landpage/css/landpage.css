@@ -1,0 +1,960 @@
+body {
+    margin-left:0px;
+    padding: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+
+}
+
+/**********  NAV BAR   **********************************************/
+.navbar {
+    border: none;
+    -webkit-transition: all 0.6s ease;
+    transition: all 0.6s ease;
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    height: 60px;
+}
+
+.navbar-toggle {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    cursor: pointer;
+    color: rgb(143 143 143 / 88%);
+    font-size: 24px;
+   /* z-index: 10;
+   display: none;*/
+}
+  
+.main-nav {
+    list-style-type: none;
+    display: none;
+    margin: 0;
+    padding-right: 20px;
+    color: rgba(167, 160, 160, 0.781)
+}
+
+.main-nav li {
+    margin: 15px auto;
+    
+}
+
+.nav-links{
+    color: white;
+    font-size: 0.9rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px #ffffff59;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+
+.nav-links-hover:hover{
+    background-color: #5aff6e;
+    cursor: pointer;
+}
+
+.active {
+    display: block !important;
+    text-align: center !important;
+}
+
+.logo{
+    padding-left: 40px;
+    padding-top: 10px;
+}
+.landpage-roma {
+    font-size: 20px;
+    margin-left: 100px;
+    color: rgb(29 92 114 / 95%);
+    text-shadow: 2px 2px 4px #ffffff59;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: -37px;
+    margin-left: 76px;
+    letter-spacing: -2px;
+    text-transform: uppercase;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/**********  HOME   *********************************************
+/*.landpage-home {
+    background-image: url('/module/landpage/images/img-capa-1.png');
+    background-position:center;
+    background-size: cover;
+    height: 100vh;
+}*/
+
+.landpage-home {
+    background-image: url('/module/landpage/images/business-people-meeting.jpg');
+    background-position:center;
+    background-size: cover;
+    height: 100vh;
+}
+
+ .landpage-home-container{
+    position: absolute;
+    text-align: center;
+    bottom: 183px;
+    right: 170px;
+    width: 360px;
+    height: 163px;
+    background-color: #ffffff;
+    border-radius: 3px;
+    -webkit-box-shadow: 16px 16px 1px -4px rgb(88 182 245);
+    -moz-box-shadow: 16px 16px 1px -4px rgba(88,182,245,1);
+    box-shadow: 16px 16px 1px -4px rgb(88 182 245);   
+}
+
+.logo-ini{
+    height: 44px;
+    margin-top: 7px;
+    margin-left: 16px;
+}
+
+
+ /**********  CARD  **********************************************/
+.card-hover:hover {
+    /*box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.308);*/
+    -webkit-box-shadow: 14px 14px 1px -4px rgba(88,182,245,1);
+    -moz-box-shadow: 14px 14px 1px -4px rgba(88,182,245,1);
+    box-shadow: 14px 14px 1px -4px rgba(88,182,245,1);
+    background-color: rgba(255, 255, 255, 0.192) !important;
+    cursor: pointer;
+}
+
+.landpage-card-1 {
+    text-align-last:center;
+    min-height:520px;
+    border-radius: 2px;   
+    top:10px;
+    padding: 0px;
+    margin: -20px;
+    background-color: #f7f7f7;
+}
+
+.landpage-card-text-card{
+    text-align-last:center;
+    font-size: 14.5px; 
+    /*height: 100%;*/
+    padding-top: 5%;
+   color: #383838;
+}
+
+.landpage-btn {
+    /*margin-top: 10%;*/
+    font-size: 1rem;
+
+}
+     
+.landpage-card-estilo-1 {
+    margin: 120px 60px 120px;
+    margin-top: 100px;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/**********  SERVICE   **********************************************/
+.landpage-card-estilo {
+    margin: 120px;
+    margin-top: 60px;
+}
+
+.landpage-fundo {
+    background: rgb(241 241 241);
+    margin-right: 0px !important;
+}
+
+.landpage-titleservice {
+    text-align: center;
+    line-height: 15px;
+    font-size: 13px;
+    margin-right: 0px !important;   
+}
+
+.landpage-card-text-1 {
+    font-size: 15px;
+    line-height: 20px;
+    text-align: start !important;
+    color: rgb(122, 120, 120);
+}
+
+.landpage-card-icon {
+    color:rgb(133, 133, 133);
+    font-size: 40px; 
+    text-align: center;  
+}
+
+.landpage-card-service-col {
+    padding-left: 15px;
+    text-align: right;
+    padding-top: 22px;
+}
+
+.landpage-card-service-col-2 {
+    margin-top:-90px;
+}
+
+.landpage-card-icon-vertical {
+    color:rgb(152 162 169);
+    font-size: 70px; 
+    text-align: center !important;
+    align-self: center;
+}
+
+.landpage-card-t-empresa {
+    font-size: 21px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+}
+
+.landpage-card-p-empresa {
+    font-size: 17px;
+    color: dimgrey;
+    text-align: center !important;
+}
+
+.landpage-card-title{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+}
+
+.landpage-card-estilo-s {
+    margin-top: -45px;
+    margin-bottom: 100px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.card-responsive-serv{
+    width: 100%;
+    height: 100%;
+    background-color: white !important;
+    padding: 20px;
+    -moz-box-shadow: 14px 14px 1px -4px #18d340;
+    box-shadow: 14px 14px 1px -4px #18d340;
+    border: 1px solid rgba(0,0,0,.125) !important;
+}
+
+.text-service-p{
+    color:#8b8b8b;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 0;
+    line-height: 30px;
+    font-size: 19px;
+    padding-bottom: 7px;
+    font-weight: 600;
+}
+
+/**********  PARALLAX   **********************************************/
+.landpage-parallax {
+    background-image: url('/module/landpage/images/BACKGROUND-P.png');
+    height: 80vh; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.landpage-text-parallax {
+    font-size: 42px;
+    text-align: center;
+    display: inline-block;
+    align-self: center;
+    font-family: 'Montserrat', serif;
+    margin-top: 180px;
+}
+
+
+
+/**********  CLIENTES E PARCEIROS   **********************************************/
+
+
+.landpage-text-clientes{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+    margin-top: 50px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: -2px;
+    color: #002b78;
+    margin-bottom: 23px;
+}
+
+.landpage-card-c-p{
+    font-size: 19px;
+    color: dimgrey;
+    text-align:initial !important;
+    font-family: 'Crimson Text', serif;
+    margin-right: 120px;
+    margin-left: 120px;
+    margin-top: 40px;
+}
+
+.landpage-img-cliente {
+    width:70px; 
+    height:70px;
+}
+
+
+
+/**********  LOGO E PARCEIROS   **********************************************/
+
+.landpage-home-parceiros{
+    position:relative;
+    text-align: center;
+    bottom: 0px;
+    margin-top: 50px;
+    margin-bottom: 10%;
+    width: 100%;
+    height: 100px;
+}
+
+.carousel {
+    position: relative;
+}
+
+.landpage-carousel-2{
+    margin-top: -40px;
+    margin-left: 0px;
+}
+
+.img-120 {
+    width: 120px;
+}
+
+.img{
+vertical-align: middle;
+border-style: none;
+}
+
+.carousel-control-prev-icon{
+    margin-right: -0%;
+}
+
+.carousel-control-next-icon{
+    margin-right: 50%
+}
+
+.carousel-control-prev-icon{
+    background-image: url('/module/landpage/images/left-arrow.svg') !important;
+    
+}
+
+.carousel-control-next-icon{
+    background-image: url('/module/landpage/images/right-arrow.svg') !important;
+}
+
+.carousel-indicators .active{
+    background-color: black !important;
+}
+
+.landpage-parceiros-contatos{
+    margin-bottom: -30px !important;
+}
+
+/**************** PARCERIA ***********************/
+
+.landipage-text-parceiros{
+    color: #525252;
+    margin-right: 40%;
+    margin-left: -50%;
+    margin-top: 30px;
+    margin-bottom: 67px;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    text-align: justify;
+    line-height: 28px;
+}
+
+.landpage-logo-roma{
+    margin-left: 21%;
+    margin-top: 47px;
+}
+
+.button {
+    border: none;
+    color: black;
+    padding: 7px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 70px;
+    margin-bottom: 60px;
+    cursor: pointer;
+  }
+
+.button4 {
+    background-color: rgba(255, 255, 255,0);
+    color: black;
+    border: 2px solid #ec2409;
+    margin-left: -90px;
+}
+
+
+
+/**********  CONTATO   **********************************************/
+
+.landpage-text-contato {
+    font-size: 20px;
+    color: darkgreen;
+    margin-top: -15px;
+    margin-bottom: 0px;
+}
+
+.landpage-text-titulo-contato{
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.landpage-form-contato-nome {
+    width: 95%;
+    height: .5%;
+    font-size: 18px;
+    background-color: whitesmoke;
+    border-radius: 1px !important;
+    margin-top: 25px;
+}
+
+.landpage-form-contato-m {
+    width: 95%;
+    height: 90px;
+    font-size: 18px;
+    background-color: whitesmoke;
+    border-radius: 1px !important;
+    margin-top: 25px;
+}
+
+.landpage-button-contato {
+    padding: 5px 28px;
+    text-align: center;
+    display: inline-block;
+    font-size: 18px;
+    margin-top: 40px;
+    cursor: auto;
+    margin-left: 40%;
+}
+
+.landpage-div-contato{
+    padding-bottom: 5%;
+    padding-top: 45px;
+}
+
+.landpage-text-contato-endereço{
+    text-align: center !important;
+    align-self: center !important;
+    margin-bottom: 10%;
+    margin-top: 5%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.landpage-text-endereço {
+    font-size: 21px;
+    margin: 5px;
+}
+
+.fundo-2 {
+    background-color: white;
+}
+
+.landpage-pre{
+    margin-left: 7% !important;
+    margin-right: 6%;
+    padding-left: 40px;
+}
+
+.carousel-indicators li{
+    background-color: rgb(96 160 185) !important;
+}
+
+.carousel-indicators .active{
+    background-color: #f91f1f !important
+    ;
+}
+
+.landpage-text-trabalhe{
+    font-size: 25px;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    padding-top: 60px;
+    color: #545454;
+    font-weight: 600;
+}
+
+/**********  FOOTER  **********************************************/
+
+.landpage-fooder-text{
+    text-align:right;
+    align-self: initial;
+    margin-top: 2%; 
+}
+
+.landpage-fooder-text-s{
+    text-align:right;
+    align-self: center;
+    margin-top: 10px;  
+}
+
+.landpage-fooder-fundo {
+    background: rgba(34, 33, 33, 0.726);
+    height:150px;
+}
+
+.landpage-logo-footer {
+    margin-left: 56%
+}
+
+.landpage-text-fooder-s {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    color: aliceblue;
+    text-align: initial;
+}
+
+.landpage-text-fooder {
+    font-size: 12px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    color: aliceblue;
+    text-align: initial;
+}
+
+.landpage-text-cliente-f {
+    margin-top: 15px;
+
+}
+
+.height-fit-content{
+    height: fit-content;
+}
+
+/**********  @MEDIA **********************************************/
+
+
+/*992 - 1140*/
+@media (min-width: 992px) and (max-width: 1140px){
+    .col-lg-4{
+        padding: 0
+    }
+    .landpage-card-text-card{
+        font-size: 16px;
+    }
+}
+@media (max-width: 992px){
+    .landpage-card-1{  
+        padding: 0px;
+        margin-top: 15px;
+        height: fit-content;
+        margin-bottom: 60px;
+    }
+
+    .height-fit-content{
+        height:fit-content;
+    }
+    .landpage-home-parceiros{
+        height: fit-content;
+    }
+}
+
+/*max-width: 767*/
+@media screen and (max-width: 767px){
+    .card-responsive-serv{
+        width: 100%;
+        align-content: center;
+        margin-top: 40px;
+        margin-left: 20px;
+    }
+    .landpage-card-text-1{
+        font-size: 15px;
+    }
+    .landpage-card-icon-vertical{
+        font-size: 50px;
+    }
+    .height-second-line{
+        height: fit-content;
+    }
+    .landpage-card-estilo-s{
+        margin-top: -100px
+    }
+    .landpage-pre{
+        width: 90%;
+    }
+
+}
+
+/* MAX-WIDTH: 999px */
+@media screen and (max-width: 999px){
+    
+    .media-navbar-a{
+        position: relative;
+        top: -94px;
+        display: contents !important;
+    }
+    .media-navbar-menu{
+        background-color: #ffffff;
+        z-index: 9;
+        -webkit-box-shadow: 0px 1px 16px -4px rgb(0 0 0 / 75%);
+        -moz-box-shadow: 0px 1px 16px -4px rgba(0,0,0,0.75);
+        box-shadow: 0px 1px 16px -4px rgb(0 0 0 / 75%);
+        position: absolute;
+        right: 4px;
+        top: 62px;
+    }
+    .landpage-roma{
+        position: absolute;
+        top: 55px;
+    }
+    .card-title{
+        font-size: 22px;
+    }
+
+    .landpage-text-clientes{
+        font-size: 21px;
+        margin-top: 50px ;
+        margin-bottom: 20px;
+        padding: 0px;
+    }
+    /*.landpage-card-estilo-s{
+        margin-left: 55px;
+        margin-bottom: 50px;
+        margin-top: 50px;
+        
+    }*/
+    .container-width{
+        max-width: fit-content;
+    }
+    .text-service-p{
+        margin-left: 20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+/**********  NAV BAR   ***********************/
+
+@media screen and (min-width: 1000px) {
+/*
+    .navbar {
+       display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+*/
+    .main-nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+
+    .nav-links {
+        margin-right: 50px;
+    }
+
+    .navbar-toggle {
+        display: none;
+    }
+/*
+    .nav-links:hover {
+        color: rgba(255, 255, 255, 1);
+        background-color: none !important;
+    }
+*/
+}
+
+
+/**********  HOME   **********************************************/
+@media screen and (max-width: 500px) {
+     .landpage-home-container{
+        position:absolute;
+        text-align: center;
+        right: 15px;
+       
+    } 
+ }
+
+
+ /**********  CARD  **********************************************/
+ 
+@media screen and (max-width: 800px) {
+    
+    .landpage-card-text-card{
+        text-align-last:center;  
+        
+    }
+
+    .landpage-btn {
+        margin-top: 7%;
+        font-size: 0.9rem;
+        
+    }
+
+    .landpage-card-estilo-1 {
+        margin: 70px;
+        margin-top: 0px;
+    }
+
+}
+
+/**********  SERVICE   **********************************************/
+@media screen and (max-width: 1000px) {
+ /*   .landpage-titleservice {
+        line-height: 15px;
+        font-size: 13px;
+        margin-top:30px;
+        margin-left: 30px auto; 
+        margin-left: 20px;
+    }*/
+    
+    .landpage-title{
+        font-size: 31px;
+    }
+
+    .landpage-card-estilo {
+        margin-left: 100px;
+        margin-top: 20px;
+    }
+
+    .landpage-card-title{
+        font-size: 18px;
+        align-items: initial;
+
+    }
+
+    .landpage-valores{
+        font-size: 18px;
+        align-items: initial;
+        margin-top: 10px;
+    }
+/*
+    .landpage-card-text-1 {
+        font-size: 12px;
+        line-height: 16px;
+    }
+*/
+    .landpage-card-icon {
+        color:rgb(22, 151, 22);
+        font-size: 30px; 
+        text-align: left;  
+    }
+
+    .landpage-card-service-col-2 {
+        margin-top:-90px;
+    }
+/*
+    .icon-amarelo {
+        color:rgb(206, 202, 5);
+        font-size: 30px;  
+        text-align: left; 
+        margin-bottom: -18px;
+    } 
+    */
+    .landpage-text-parallax{
+        margin-top: 80px;
+        font-size: 30px;
+        margin-bottom: 65px;
+    }
+}
+
+/**********  PARALLAX   **********************************************/
+@media screen and (max-width: 1000px) {
+    .landpage-parallax {
+        height: fit-content; 
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover; 
+    }
+}
+
+/**********  CLIENTES E PARCEIROS   **********************************************/
+@media screen and (max-width: 1000px) {
+    .landpage-card-c-p{
+        font-size: 14px;
+        margin-right: 100px;
+        margin-left: 90px;
+        margin-top: 30px;
+    }
+
+
+    .landpage-img-cliente {
+        width:60px; 
+        height:60px;
+    }
+    .landpage-card-espaço{
+        margin-bottom: 0px !important;
+    }
+}
+/**********  LOGO E PARCEIROS   **********************************************/
+ 
+@media screen and (max-width: 1000px) {
+    .landpage-img-parceiros-p {
+        width:38px; 
+        height: 30px;
+        margin-left:.8%;
+        margin-right:.9%;
+        margin-bottom: 20px; 
+    }
+
+    .landpage-img-parceiros {
+        width:51px; 
+        height: 25px; 
+        margin-left:.8%;
+        margin-right:.9%;
+        margin-bottom: 20px; 
+    }
+
+    .landpage-row-logos-parceiros {
+        text-align: center;
+        padding-top: 3%;
+        padding-left: 20px;
+        padding-top: 0px;
+
+    }
+
+    .landpage-row-logos-p {
+        padding-top: 3%;
+    }
+}
+
+/**********  CONTATO   **********************************************/
+@media screen and (max-width: 600px) {
+    .landpage-text-contato {
+        font-size: 15px;
+        margin-top: 0px;
+        text-align: center;
+    }
+
+    .landpage-text-trabalhe{
+        margin-bottom: 0px;
+    }
+    .landpage-text-titulo-contato{
+        text-align: center;
+        font-size: 30px;
+        padding: 0px;
+        margin-bottom: 30px;
+    }
+
+    .landpage-button-contato {
+        padding: 2px 24px;
+        text-align: center;
+        display: inline-block;
+        font-size: 18px;
+        margin-top: 30px;
+        cursor: auto;
+        margin-left: 60%;
+    }
+
+    .landpage-text-endereço {
+        font-size: 15px;
+    }
+}
+
+
+/**********  FOOTER  **********************************************/
+
+@media screen and (max-width: 600px) {
+    .landpage-fooder-text{
+        text-align:right;
+        align-self: center;
+        margin-top: 18px; 
+        padding: 0px;
+        margin-left:-20px;
+        padding-right: -10px;
+    }
+    
+
+    .landpage-fooder-text-s{
+        margin-top: 1%; 
+        padding-left: 20px;
+    }
+
+    .landpage-logo-footer {
+        margin-left: 30px;
+        height: 65px;
+        width: 65px; 
+    }
+
+    .landpage-text-fooder-s {
+        margin-bottom: 0px;
+        margin-top: 0px;
+        font-size: 11px;
+    }
+
+    .landpage-text-fooder {
+        font-size: 10px;
+        margin-top: 0px;
+        margin-left:0px;
+    }
+
+    .landpage-text-cliente-f {
+        margin-top: 0px;
+    }
+
+    .landpage-text-600{
+        font-size: 12px;
+    }
+
+    .landpage-text-contato-firma{
+        margin-left: 0px !important;
+        margin-top: 10px;
+    }
+
+    .img-footer-align{
+        align-self: center;
+    }
+}
+
+
+
+/**********  NAV BAR   ***********************/
+div.pullUp a:before {
+    position: absolute;
+    width: 100%;
+    height: 0px;
+    border-radius: 3px; 
+    right: 0px;
+    bottom: 0px;
+    content: '';
+    /*background: rgb(167, 167, 167);*/
+    opacity: 0.3;
+    transition: all 0.5s;
+}
+  
+div.pullUp a:hover:before {
+    height: 102%;
+}
+  
+div.containers a {
+    color: rgb(63 120 118);
+    text-decoration: none;
+    padding: 0px 0px;
+    position: relative;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 14px;
+}
+
+
+

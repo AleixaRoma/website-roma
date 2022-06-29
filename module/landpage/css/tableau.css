@@ -1,0 +1,338 @@
+body {
+    margin-left:0px;
+    padding: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    overflow-x: hidden;
+    font-family: 'Montserrat', sans-serif !important;
+
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/**********  NAV BAR   **********************************************/
+.navbar {
+    border: none;
+    -webkit-transition: all 0.6s ease;
+    transition: all 0.6s ease;
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    height: 60px;
+}
+
+.navbar-toggle {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.883);
+    font-size: 24px;
+}
+  
+.main-nav {
+    list-style-type: none;
+    display: none;
+    margin: 0;
+    padding-right: 20px;
+    color: rgba(167, 160, 160, 0.781)
+}
+
+.logo{
+    padding-left: 40px;
+    padding-top: 10px;
+}
+
+.landpage-roma {
+    font-size: 20px;
+    margin-left: 100px;
+    color: rgb(29 92 114 / 95%);
+    text-shadow: 2px 2px 4px #ffffff59;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: -37px;
+    margin-left: 76px;
+    letter-spacing: -2px;
+    text-transform: uppercase;  
+} 
+
+
+/********** HOME **********************************************/
+    
+.landpage-tableau-home-foto{
+    background-image: url('/module/landpage/images/Tableau\ Cloud.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 30vh;
+    position: relative;
+    background-color: #cfcfcf;
+    background-size: 45%;
+ }
+
+ /********** TABLEAU **********************************************/
+.landpage-tableau-text-title-business {
+    margin-top: 3%;
+    margin-bottom: 2%;
+    margin-left: 6%;
+    color: rgb(68, 68, 68);  
+}
+
+.landpage-tableau-text-conteudo-business{
+    font-size: 16px;
+    color: rgb(36 36 36);
+    margin-left: 6%;
+    margin-right: 6%;
+    text-align: justify;
+}
+.landpage-tableau-button-conteudo {
+    background-color: white; 
+    color: rgb(184, 0, 0); 
+    border: 2px solid rgb(184, 0, 0);
+    font-size: 18px;
+    border-radius: 5px; 
+    padding: 8px 18px; 
+    margin-top: 20%;
+    margin-bottom: 5%;
+}
+
+ /********** CARD VIDEO **********************************************/
+ .card-hover:hover {
+    box-shadow: 0 10px 20px 0 rgb(0 0 0 / 31%);
+    -webkit-box-shadow: 14px 14px 1px -4px #18d340;
+    -moz-box-shadow: 14px 14px 1px -4px #18d340;
+    box-shadow: 14px 14px 1px -4px #18d340;
+    background-color: rgba(255, 255, 255, 0.192) !important;
+    cursor: pointer;
+}
+ .landpage-tableau-card-1 {
+    text-align-last:center;
+    height:520px;
+    border-radius: 2px;
+    padding: 0px;
+    background-color: #f7f7f7;
+}
+
+.landpage-tableau-card-text-card{
+    font-size: 16px;
+    text-align: center;
+    color: rgb(58 58 58);
+    margin-bottom: 25px;
+}
+
+     
+.landpage-tableau-card-estilo {
+    margin-top: 60px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+}
+
+.landpage-tableau-card-video {
+    align-self: center;
+    margin-top: 2%;
+    width:95%;
+    height:175px;
+}
+
+
+
+/********** FOODER **********************************************/
+.landpage-fooder-text{
+    text-align:right;
+    align-self: initial;
+    margin-top: 2%; 
+}
+
+.landpage-fooder-text-s{
+    text-align: right;
+    align-self: center;
+    margin-top: 10px;
+}
+
+.landpage-fooder-fundo {
+    background: rgba(34, 33, 33, 0.726);
+    height:150px;
+}
+
+.landpage-logo-footer {
+    margin-left: 56%
+}
+
+.landpage-text-fooder-s {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    color: aliceblue;
+    text-align: initial;
+}
+
+.landpage-text-fooder {
+    font-size: 12px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    color: aliceblue;
+    text-align: initial;
+}
+
+.landpage-text-cliente-f {
+    margin-top: 15px;
+
+}
+
+.landpage-text-contato-firma {
+    margin-top: 15px;
+
+}
+
+
+
+
+/**********  @MEDIA **********************************************/
+
+@media screen and (max-width: 991px){
+    .col-lg-4{
+        margin-top: 20px;
+    }
+}
+
+
+/********** TABLEAU **********************************************/
+@media screen and (max-width: 600px) {
+    .landpage-tableau-text-title-business {
+        margin-top: 20px;  
+    }
+
+    .landpage-tableau-text-conteudo-business{
+        font-size: 13px;
+    }
+
+    .landpage-tableau-button-conteudo {
+        background-color: white; 
+        color: rgb(184, 0, 0); 
+        border: 1px solid rgb(184, 0, 0);
+        font-size: 14px; 
+        padding: 4px 14px; 
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+/********** CARD VIDEO **********************************************/
+@media screen and (max-width: 600px) {
+    .landpage-tableau-card-1 { 
+        top:5%;
+        padding: 8px;
+        margin: 0px;
+        width: 100%;
+        margin-bottom: 10%;
+    }
+
+    .landpage-tableau-card-text-card{
+        font-size: 13px;
+        text-align:center;  
+        width: 100%;
+        color: rgb(100, 99, 99);
+    }
+
+        
+    .landpage-tableau-card-estilo {
+        margin-top: 60px;
+        margin-left: 10%;
+        margin-right: 7%;
+    }
+
+    .landpage-tableau-card-video {
+        align-self: center;
+        margin-top: 2%;
+        width:95%;
+        height:50%;
+    }
+}
+
+
+
+/********** FOODER **********************************************/
+@media screen and (max-width: 600px) {
+    .landpage-fooder-text{
+        text-align:right;
+        align-self: center;
+        margin-top: 18px; 
+        padding: 0px;
+        margin-left:-20px;
+        padding-right: -10px;
+    }
+    
+
+    .landpage-fooder-text-s{
+        margin-top: 1%; 
+        padding-left: 20px;
+    }
+
+    .landpage-logo-footer {
+        margin-left: 0;
+        height: 65px;
+        width: 65px; 
+    }
+
+    .landpage-text-fooder-s {
+        margin-bottom: 0px;
+        margin-top: 0px;
+        font-size: 12px;
+    }
+
+    .landpage-text-fooder {
+        font-size: 10px;
+        margin-top: 0px;
+        margin-left:0px;
+    }
+
+    .landpage-text-cliente-f {
+        margin-top: 0px;
+    }
+
+    .landpage-text-600{
+        font-size: 12px;
+    }
+
+    .landpage-text-contato-firma{
+        margin-left: 0px !important;
+        margin-top: 10px;
+    }
+}
+
+
+
+
+
+
+
+div.pullUp a:before {
+    position: absolute;
+    width: 100%;
+    height: 0px;
+    border-radius: 3px; 
+    right: 0px;
+    bottom: 0px;
+    content: '';
+    background: #FFF;
+    opacity: 0.3;
+    transition: all 0.5s;
+}
+  
+div.pullUp a:hover:before {
+    height: 102%;
+}
+  
+div.containers a {
+    color: #FFF;
+    text-decoration: none;
+    padding: 10px 10px;
+    position: relative;
+    cursor: pointer;
+}
+
+
